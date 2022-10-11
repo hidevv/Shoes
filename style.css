@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   
   header {
@@ -65,6 +67,13 @@
     font-weight: 800;
     font-size: xx-large;
     line-height: 82px;
+  }
+
+  .first-section > h3 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: xx-large;
+    line-height: 5px;
   }
   
   .container {
