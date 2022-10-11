@@ -82,7 +82,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin: 4rem;
+    margin: 3rem;
   }
   
   .class1  {
@@ -220,3 +220,17 @@
     font-size: large;
     line-height: 35px;
   }
+
+
+
+
+
+
+
+  @media screen and (max-width: 1920px) {
+    body{
+    width:100vh;
+    height: 100vw;
+    margin: 0 auto;
+    margin: 0 auto;
+    }
